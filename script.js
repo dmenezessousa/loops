@@ -14,5 +14,9 @@ btn.onclick = function() {
         //append the image element to the DOM aka "the DIV tag".
         document.querySelector("div").appendChild(img);
     }
+}
 
+const btn2 = document.querySelector("#btn2");
+btn2.onclick = function() {
+     window.location.reload();
 }
